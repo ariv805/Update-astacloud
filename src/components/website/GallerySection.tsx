@@ -2,84 +2,16 @@
 
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
-
-// ============================================================
-// GANTI URL "image" DI BAWAH DENGAN URL FOTO PENGERJAAN ASLI
-// Contoh: image: "https://image2url.com/r2/default/images/xxx.jpg"
-// ============================================================
 const galleryItems = [
   {
     id: 1,
-    title: "Website Toko Online",
+    title: "-",
     category: "E-Commerce",
-    image: "https://placehold.co/600x400/10b981/ffffff?text=Foto+Proyek+1",
-    description: "Pembuatan website toko online lengkap dengan sistem pembayaran dan manajemen produk.",
-    tags: ["Next.js", "Tailwind", "Midtrans"],
+    image: "https://placehold.co/600x400/10b981/ffffff?text=-",
+    description: "",
+    tags: ["Next.js",],
     gradient: "from-emerald-500 to-teal-600",
-  },
-  {
-    id: 2,
-    title: "Landing Page Bisnis",
-    category: "Website",
-    image: "https://placehold.co/600x400/3b82f6/ffffff?text=Foto+Proyek+2",
-    description: "Desain landing page profesional untuk bisnis dengan animasi modern dan responsif.",
-    tags: ["React", "Framer Motion", "SEO"],
-    gradient: "from-blue-500 to-indigo-600",
-  },
-  {
-    id: 3,
-    title: "Aplikasi Mobile",
-    category: "Mobile App",
-    image: "https://placehold.co/600x400/a855f7/ffffff?text=Foto+Proyek+3",
-    description: "Pengembangan aplikasi mobile cross-platform untuk Android dan iOS.",
-    tags: ["React Native", "Expo", "Firebase"],
-    gradient: "from-purple-500 to-pink-600",
-  },
-  {
-    id: 4,
-    title: "Dashboard Admin",
-    category: "Web App",
-    image: "https://placehold.co/600x400/f97316/ffffff?text=Foto+Proyek+4",
-    description: "Dashboard admin dengan visualisasi data real-time dan manajemen pengguna.",
-    tags: ["Vue.js", "Chart.js", "REST API"],
-    gradient: "from-orange-500 to-red-600",
-  },
-  {
-    id: 5,
-    title: "Sistem Informasi Sekolah",
-    category: "Web App",
-    image: "https://placehold.co/600x400/06b6d4/ffffff?text=Foto+Proyek+5",
-    description: "Sistem informasi akademik untuk manajemen siswa, nilai, dan absensi.",
-    tags: ["Laravel", "MySQL", "Bootstrap"],
-    gradient: "from-cyan-500 to-blue-600",
-  },
-  {
-    id: 6,
-    title: "Website Company Profile",
-    category: "Website",
-    image: "https://placehold.co/600x400/f43f5e/ffffff?text=Foto+Proyek+6",
-    description: "Website company profile modern dengan desain elegan dan konten dinamis.",
-    tags: ["WordPress", "Custom Theme", "SEO"],
-    gradient: "from-rose-500 to-pink-600",
-  },
-  {
-    id: 7,
-    title: "Aplikasi Point of Sale",
-    category: "Desktop App",
-    image: "https://placehold.co/600x400/f59e0b/ffffff?text=Foto+Proyek+7",
-    description: "Aplikasi kasir dan manajemen stok untuk toko retail dengan laporan otomatis.",
-    tags: ["Electron", "SQLite", "Print Receipt"],
-    gradient: "from-amber-500 to-orange-600",
-  },
-  {
-    id: 8,
-    title: "Website Portfolio",
-    category: "Website",
-    image: "https://placehold.co/600x400/6366f1/ffffff?text=Foto+Proyek+8",
-    description: "Website portfolio personal dengan desain kreatif dan showcase proyek.",
-    tags: ["Next.js", "Three.js", "GSAP"],
-    gradient: "from-indigo-500 to-purple-600",
-  },
+  },  
 ];
 
 const containerVariants = {
